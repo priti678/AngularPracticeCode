@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularPractice';
+  getvalue(){
+    alert("calling getvalue function")
+  }
+  name ="calling function getvaluefun"
+  getvaluefun(value: any){
+    alert(value)
+  }
+  MyEvent(val: any){
+    alert(val)
+  }
+  MyEvent1(val: any){
+    alert(val)
+  }
+
+  MyEvent2(val: any){
+    alert(val)
+  }
 }

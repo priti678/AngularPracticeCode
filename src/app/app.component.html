@@ -1,0 +1,18 @@
+<!-- <app-test></app-test> -->
+<!-- <div class="app-test</div> -->
+<div app-test></div>   <!--attribute-->
+<app-login></app-login>
+<app-signup></app-signup>
+<button (click) ="getvalue()">click me</button>
+<br>
+<br>
+<button (click) ="getvaluefun(name)">click again</button>
+<br><br>
+<input type="text" #textId (keyup) ="MyEvent(textId.value)">
+<br><br>
+<input type="text" #textId1 (keyup.enter) ="MyEvent1(textId1.value)">
+<br><br>
+<input type="text" #textId2 (keyup.space) ="MyEvent2(textId2.value)">
+<br><br>
+<!-- <h2 (mouseover) ="MyEvent2('mouse over')">mouse over event</h2> -->
+
